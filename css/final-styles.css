@@ -1,0 +1,108 @@
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+.navbar-bg{
+  background-color:#0B0C10;
+  border-bottom:#C5C6C7;
+  border-bottom-style:solid;
+}
+.navbar a{
+  color: #66FCF1;
+}
+  /* 
+#0B0C10 - black 
+#1F2833 - lighter black
+#C5C6C7 whiteish
+#66FCF1 - bright teal
+#45A29E - Darker Teals
+https://visme.co/blog/website-color-schemes/ #12
+*/
+.nav>li>a:focus, .nav>li>a:hover, .navbar-header>a:hover{
+      background-color: #C5C6C7 !important;
+}
+
+.index{
+  background-color:#0B0C10;
+}
+.sect{
+  background-color:#1F2833;
+  color:#66FCF1;
+}
+
+.contact , .about, .games{
+  background-color:#0B0C10;
+}
+.contact-container{
+  background-color:#1F2833;
+  color: #66FCF1;
+}
+.form-control{
+  background-color:#0B0C10;
+  color:#C5C6C7;
+}
+.submit{
+  background-color:#0B0C10;
+  color:#C5C6C7;
+}
+.footer-bg{
+  background-color: #0B0C10;
+  border-top:#C5C6C7;
+  border-top-style:solid;
+ 
+}
+
+.footer-bg svg:hover{
+  background-color:#C5C6C7;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+  padding-bottom:38px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 36px; 
+}
+
+
+@media (max-width: 767px) {
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.win{
+  background-color: green;
+}
+
